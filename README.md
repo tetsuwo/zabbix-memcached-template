@@ -8,7 +8,7 @@ In this example the settings path of zabbix is `/etc/zabbix/`.
 
 Setting config file.
 
-    $ curl https://raw.githubusercontent.com/tetsuwo/zabbix-memcached-template/master/src/zabbix_agent.d/userparameter_memcached.conf > /etc/zabbix/zabbix_conf.d/userparameter_memcached.conf
+    $ curl https://raw.githubusercontent.com/tetsuwo/zabbix-memcached-template/master/src/zabbix_agentd.d/userparameter_memcached.conf > /etc/zabbix/zabbix_agentd.d/userparameter_memcached.conf
 
 Setting script file.
 
