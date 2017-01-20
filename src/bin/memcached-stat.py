@@ -21,7 +21,7 @@ MEMCACHED_STAT_ITEMS = (
     'version',
 )
 
-COMMAND_SHORT_OPTIONS = 'h:p:i'
+COMMAND_SHORT_OPTIONS = 'h:p:i:'
 COMMAND_LONG_OPTIONS = ['help', 'host=', 'port=', 'item=']
 
 def get_memcached_stats(host, port):
