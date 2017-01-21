@@ -2,6 +2,9 @@
 #
 #
 
-set -ux
+set -ue
+
+
+python ../src/bin/memcached-stat.py --item=version
 
 
