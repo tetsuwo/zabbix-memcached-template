@@ -1,5 +1,7 @@
 # Memcached Stats Templates for Zabbix
 
+[![Build Status](https://travis-ci.org/tetsuwo/zabbix-memcached-template.svg?branch=master)](https://travis-ci.org/tetsuwo/zabbix-memcached-template)
+
 This Zabbix template is template for resource monitoring of Memcached.  
 In this example the settings path of zabbix is `/etc/zabbix/`.
 
