@@ -5,6 +5,6 @@
 set -ue
 
 
-python ../src/bin/memcached-stat.py --item=version
+python ./src/bin/memcached-stat.py --item=version
 
 
