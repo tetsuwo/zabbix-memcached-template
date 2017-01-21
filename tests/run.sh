@@ -5,4 +5,4 @@
 set -ue
 
 VERSION=$(`python ./src/bin/memcached-stat.py --item=version`)
-echo $VERSION
+echo "$VERSION"
