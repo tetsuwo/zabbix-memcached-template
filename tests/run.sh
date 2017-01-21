@@ -33,7 +33,7 @@ string_items="version"
 for item in $string_items
 do
   value=$(python ./src/bin/memcached-stat.py --item=${item})
-  if [ -n "${value} ]; then
+  if [ -n "${value}" ]; then
     echo "Valid: ${item}=${value}"
   else
     echo "Invalid: ${item}=${value}"
@@ -41,7 +41,7 @@ do
   fi
   
   value=$(python ./src/bin/memcached-stat.py -i ${item})
-  if [ -n "${value} ]; then
+  if [ -n "${value}" ]; then
     echo "Valid: ${item}=${value}"
   else
     echo "Invalid: ${item}=${value}"
