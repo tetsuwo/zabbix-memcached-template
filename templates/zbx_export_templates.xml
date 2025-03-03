@@ -493,9 +493,7 @@
                             <name>Memcached</name>
                         </application>
                     </applications>
-                    <valuemap>
-                        <name>Service state</name>
-                    </valuemap>
+                    <valuemap/>
                     <logtimefmt/>
                 </item>
             </items>
